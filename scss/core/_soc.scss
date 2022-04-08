@@ -1,0 +1,19 @@
+// Social link
+
+.soc {
+	// float: left;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+	a {
+		flex: none;
+		display: block;
+		width: 1.5em;
+		margin-right: 0.9375em;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
