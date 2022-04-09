@@ -1,0 +1,92 @@
+.cards {
+  font-size: 0.9em;
+  padding-top: 6.625em;
+  padding-bottom: 3.4375em;
+  &__title {
+    font-size: 1.6em;
+    line-height: 1.49;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 1.8em;
+  }
+  &__sub {
+    font-size: 1.5em;
+    margin-bottom: 2.5em;
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1.875em;
+    margin-top: -1.875em;
+  }
+  &__col {
+    width: 100%;
+    padding-left: 1.875em;
+    padding-top: 1.875em;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 4em 3.125em 3.2em;
+    background-color: #fff;
+    transition: 0.5s;
+    &:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    }
+  }
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.75em;
+    height: 6.75em;
+    margin-left: 1em;
+    border-radius: 100%;
+    background-color: $color_primary;
+    margin-bottom: 2.6em;
+    img {
+      width: 3em;
+    }
+  }
+  &__subtitle {
+    flex-grow: 1;
+    font-size: 1.625em;
+    font-weight: 600;
+  }
+  &__list {
+    font-size: 1.125em;
+    line-height: 1.85;
+    padding-left: 0;
+    list-style-type: none;
+    li {
+      position: relative;
+      padding-left: 0.5em;
+      &:before {
+        content: '';
+        display: block;
+        width: 0.2em;
+        height: 0.2em;
+        background-color: $main_color;
+        border-radius: 100%;
+        position: absolute;
+        top: 0.9em;
+        left: 0;
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    &__col {
+      width: 33.33%;
+    }
+    &__title {
+      font-size: 1.875em;
+    }
+    &__sub {
+      font-size: 1.625em;
+    }
+    &__item {
+      padding: 5em 3.125em 5.2em;
+    }
+  }
+}

@@ -1192,3 +1192,115 @@ body.navbar__open {
     width: 78em;
   }
 }
+
+.cards {
+  font-size: 0.9em;
+  padding-top: 6.625em;
+  padding-bottom: 3.4375em;
+}
+.cards__title {
+  font-size: 1.6em;
+  line-height: 1.49;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 1.8em;
+}
+.cards__sub {
+  font-size: 1.5em;
+  margin-bottom: 2.5em;
+}
+.cards__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -1.875em;
+  margin-top: -1.875em;
+}
+.cards__col {
+  width: 100%;
+  padding-left: 1.875em;
+  padding-top: 1.875em;
+}
+.cards__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  padding: 4em 3.125em 3.2em;
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.cards__item:hover {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.cards__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 6.75em;
+  height: 6.75em;
+  margin-left: 1em;
+  border-radius: 100%;
+  background-color: #74D414;
+  margin-bottom: 2.6em;
+}
+.cards__icon img {
+  width: 3em;
+}
+.cards__subtitle {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-size: 1.625em;
+  font-weight: 600;
+}
+.cards__list {
+  font-size: 1.125em;
+  line-height: 1.85;
+  padding-left: 0;
+  list-style-type: none;
+}
+.cards__list li {
+  position: relative;
+  padding-left: 0.5em;
+}
+.cards__list li:before {
+  content: "";
+  display: block;
+  width: 0.2em;
+  height: 0.2em;
+  background-color: #2B2C34;
+  border-radius: 100%;
+  position: absolute;
+  top: 0.9em;
+  left: 0;
+}
+@media (min-width: 768px) {
+  .cards__col {
+    width: 33.33%;
+  }
+  .cards__title {
+    font-size: 1.875em;
+  }
+  .cards__sub {
+    font-size: 1.625em;
+  }
+  .cards__item {
+    padding: 5em 3.125em 5.2em;
+  }
+}
