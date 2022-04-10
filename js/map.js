@@ -36,11 +36,3 @@ function init() {
   //myMap.behaviors.disable(['scrollZoom']); // отключаем скролл карты (опционально)
 
 }
-
-function activeLinkMap() {
-  $('.contacts__link').on('click', function () {
-    $('.contacts__link').removeClass('active');
-    $(this).addClass('active');
-  })
-};
-activeLinkMap();

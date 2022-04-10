@@ -15,4 +15,18 @@ window.onload = () => {
     }
     openMobileNav();
 
+    // Scroll to ID // Плавный скролл к элементу при нажатии на ссылку. В ссылке указываем ID элемента
+    function srollToId() {
+        const el = document.querySelectorAll('[data-scroll-to]');
+        el.forEach((item, i) => {
+            item.addEventListener('click', e => {
+                console.log(e.target.href);
+                document.body.classList.remove('navbar__open');
+                document.querySelector('.nav').classList.remove('open');
+                document.querySelector('.navbar__toggle').classList.remove('active');
+            });
+        });
+    }
+    srollToId();
+
 };
