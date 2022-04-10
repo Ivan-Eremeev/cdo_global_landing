@@ -20,6 +20,10 @@
     padding: 2.3125em 1.875em 2.4375em 2.5em;
     border-right: 1px solid #cecece;
     border-bottom: 1px solid #cecece;
+    transition: 0.3s;
+    &:hover {
+      background-color: #fff;
+    }
   }
   &__icon {
     display: flex;
