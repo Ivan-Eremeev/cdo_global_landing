@@ -1,7 +1,1 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M20 36V38C20 40.21 18.21 42 16 42H10C7.79 42 6 40.21 6 38V32C6 29.79 7.79 28 10 28H12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M29.6568 18.3431C32.781 21.4673 32.781 26.5327 29.6568 29.6568C26.5326 32.781 21.4673 32.781 18.3431 29.6568C15.2189 26.5326 15.2189 21.4673 18.3431 18.3431C21.4673 15.2189 26.5326 15.2189 29.6568 18.3431" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M29.66 29.66L38 38" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 20H10C7.79 20 6 18.21 6 16V10C6 7.79 7.79 6 10 6H16C18.21 6 20 7.79 20 10V12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28 12V10C28 7.79 29.79 6 32 6H38C40.21 6 42 7.79 42 10V16C42 18.21 40.21 20 38 20H36" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 36v2c0 2.21-1.79 4-4 4h-6c-2.21 0-4-1.79-4-4v-6c0-2.21 1.79-4 4-4h2m17.657-9.657a8 8 0 11-11.314 11.314 8 8 0 0111.314-11.314m.003 11.317L38 38M12 20h-2c-2.21 0-4-1.79-4-4v-6c0-2.21 1.79-4 4-4h6c2.21 0 4 1.79 4 4v2m8 0v-2c0-2.21 1.79-4 4-4h6c2.21 0 4 1.79 4 4v6c0 2.21-1.79 4-4 4h-2" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
